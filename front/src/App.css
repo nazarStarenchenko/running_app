@@ -1,0 +1,189 @@
+/* IMPORTING NEEDED FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+/* BASIC STYLES */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+} 
+
+h1 {
+  text-align: center;
+}
+
+
+/* FORM STYLES */
+label {
+  font-size: 16px;
+}
+
+form div, fieldset {
+  width: 80%;
+  margin-bottom: 20px;
+  margin-left: 10%;
+}
+
+form div {
+  display: flex;
+  justify-content: space-between;
+}
+
+fieldset {
+  border: 0.4px solid rgba(0, 0, 0, 0.4);
+  display: block;
+}
+
+fieldset legend {
+  margin-left: 20px;
+}
+
+fieldset div {
+  display: inline-block;
+  margin-bottom: 3px;
+}
+
+button[type="submit"] {
+  padding:8px 20px 8px 20px;
+  border-radius: 10px;
+  background-color: #596d48;
+  color: #f4f4f4;
+  font-size: 20px;
+  border: none;
+  width: 40%;
+  margin-left: 30%;
+
+}
+
+button[type="submit"]:hover {
+  background-color: #f4f4f4;
+  color: #596d48;
+  border: 3px solid #596d48;
+  transition-property: color, background-color;
+  transition-duration: 0.2s;
+}
+
+button[type="submit"]:focus {
+  outline:none;
+}
+
+form {
+  width: 50%; 
+  margin-left: 25%;
+}
+
+
+/* HEADER COMPONETS STYLES */
+header {
+  width: 70%;
+  margin-left: 15%;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 100px;
+}
+
+header h1 {
+  font-family: 'Lobster', cursive;
+  color: rgb(37, 37, 37);
+  font-size: 36px;
+}
+
+nav {
+  font-size: 20px;
+}
+ol{
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+li {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+li a {
+  text-decoration:none;
+  color: #000;
+}
+
+li a:hover {
+  border-bottom: 1px solid #000;
+}
+
+
+/* MAIN COMPONENTS STYLES */
+main {
+  width: 70%;
+  margin-left: 15%;
+}
+
+
+/* PROGRAM COMPONENTS STYLES */
+.algo_change {
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 40px;
+}
+
+.prog-container {
+  width: 60%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.prog-container div {
+  width: 100%;
+}
+
+/* WORKOUTS COMPONENTS STYLES */
+.workouts {
+  display: flex;
+  gap: 20px;
+  width: 50%;
+  margin-left: 25%;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.workouts div {
+  border: 0.5px solid #000;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+
+
+/* DESCRIPTION COMPONENTS STYLES */
+.description {
+  width: 60%;
+  margin-left: 20%;
+}
+
+.description h1 {
+  border-bottom: 0.5px solid black;
+  display: inline-block;
+}
+
+.description .header {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.description ol {
+  list-style-type: decimal;
+}
+
+.description ol li{
+  margin-bottom: 20px;
+}
+
+.description ol li span {
+  font-size: 18px;
+  font-weight: 900;
+}
