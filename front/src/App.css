@@ -80,8 +80,8 @@ form {
 
 /* HEADER COMPONETS STYLES */
 header {
-  width: 70%;
-  margin-left: 15%;
+  width: 80%;
+  margin-left: 10%;
   display: flex;
   justify-content: space-around;
   margin-bottom: 100px;
@@ -186,4 +186,11 @@ main {
 .description ol li span {
   font-size: 18px;
   font-weight: 900;
+}
+
+/* PLOT STYLES */
+
+.plot {
+  width: 80%;
+  margin-left: 10%;
 }

@@ -114,6 +114,7 @@ function fi_give (start_milage) {
 	let end_milage = Math.floor(0.65 * start_milage + start_milage) + 1;
 
 	let starting_weeks, ending_weeks;
+
 	if (number_of_weeks_allocated.fi % 2 == 1) {
 		starting_weeks = Math.floor(number_of_weeks_allocated.fi / 2);
 		ending_weeks = number_of_weeks_allocated.fi / 2;

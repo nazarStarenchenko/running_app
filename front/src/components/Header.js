@@ -12,6 +12,7 @@ export default function Header () {
           <li><Link to="/description">Training description</Link></li>
           <li><Link to="/workouts">Workout display</Link></li>
           <li><Link to="/program">Program</Link></li>
+          <li><Link to="/plots">Plot data</Link></li>
         </ol>
       </nav>
     </header>

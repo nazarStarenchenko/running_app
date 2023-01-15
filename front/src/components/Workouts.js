@@ -26,8 +26,9 @@ export default function Workouts () {
         <p>Type of a run: {val.runType}</p>
       </div>
     });
-    console.log(data);
-    setArrToDisplay(arr);
+
+
+    setArrToDisplay(arr.reverse());
   }
 
   return (
